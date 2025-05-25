@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tetris Game</title>
+  <link rel="stylesheet" href="home.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="video-background">
+        <div class="video-foreground">
+            <iframe src="https://www.youtube.com/embed/uFgTk481av4?autoplay=1&loop=1&playlist=uFgTk481av4&mute=1&controls=0&disablekb=1&fs=0&modestbranding=1" 
+                    frameborder="0" 
+                    allow="autoplay; encrypted-media" 
+                    allowfullscreen></iframe>
+        </div>
+    </div>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <span style="color: red;">T</span>
+      <span style="color: orange;">E</span>
+    <span style="color: yellow;">T</span>
+  <span style="color: rgb(11, 248, 11);">R</span>
+<span style="color: rgb(243, 38, 209);">I</span>
+<span style="color: rgb(86, 96, 238);">S</span></div>
+      <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="home.html"><i class="fa-solid fa-house"></i></a></li>
+        <li><a href="#about"><i class="fas fa-info-circle"></i></a></li>
+        <li><a href="rate.html"><i class="fas fa-star"></i>Rate Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h2>Welcome to the Classic Tetris Game!</h2>
+      <p>Test your skills in this addictive puzzle game. Clear lines and score points!</p>
+      <a href="tertis.html" class="play-btn"><i class="fas fa-gamepad"></i> Play Now</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Tetris</h2>
+    <p>Tetris is a tile-matching puzzle video game. The goal is to manipulate falling blocks called Tetrominoes to form complete horizontal lines without gaps.</p>
+    <h2>Gameplay Rules</h2>
+    <ol>
+        <p>1.<strong> Tetriminos Fall</strong> from the top of the screen</p>
+        <p>2.<strong> Arrange Them</strong> to fill horizontal lines without gaps</p>
+        <p>3.<strong> Completed Lines</strong> disappear, and you earn points</p>
+        <p>4.<strong> Levels Increase</strong> as you clear more lines, making the game faster</p>
+        <p>5.<strong> Game Over</strong> when blocks reach the top of the screen</p>
+    </ol>
+    
+    <h2>Scoring</h2>
+    <div class="scoring">
+        <p>Points are awarded based on the number of lines cleared at once:</p>
+        <ul>
+           <p> 1.<strong> Line (Single)</strong> - 50 × Level</p>
+           <p> 2.<strong> Lines (Double)</strong> - 100 × Level</p>
+           <p> 3.<strong> Lines (Triple)</strong> - 150 × Level</p>
+            <p>4.<strong> Lines (Tetris)</strong> - 200 × Level</p>
+        </ul>
+    </div>
+    
+    <h2>Tips for Beginners</h2>
+    <div class="tips">
+        <p>✔ <strong>Leave Space</strong> on one side for the long <strong>I-Tetrimino</strong> (helps clear 4 lines at once)</p>
+        <p>✔ <strong>Plan Ahead</strong> - Rotate and position Tetriminos to minimize gaps</p>
+        <p>✔ <strong>Use Hold</strong> to save a useful Tetrimino for later</p>
+        <p>✔ <strong>Practice Speed</strong> - Higher levels require quick reactions!</p>
+    </div>
+    
+  </section>
+
+  
+  <script>
+    function toggleMenu() {
+      document.getElementById("navLinks").classList.toggle("show");
+    }
+  </script>
+</body>
+</html>
