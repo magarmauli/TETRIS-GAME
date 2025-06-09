@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="tertis.css">
+<title>Tetris Game</title>
+</head>
+<body>
+  <main class="container" role="main">
+    <section id="game" aria-label="Tetris game">
+      <div id="board" aria-label="Tetris game board" role="grid" aria-live="polite">
+      </div>
+      <aside id="sidebar" aria-label="Game Sidebar">
+        <h2>Next Piece</h2>
+        <div id="next" aria-label="Next piece preview"></div>
+        <div class="score" aria-live="polite">Score: <span id="score">0</span></div>
+        <div class="lines" aria-live="polite">Lines: <span id="lines">0</span></div>
+        <div class="btn">
+          <button id="pause-button" aria-pressed="false" aria-label="Pause Game">Pause</button>
+          <button id="restart-button" aria-label="Restart Game">Restart</button>
+        </div>
+      </aside>
+      <div id="controls" aria-label="Game controls">
+          <img src="https://t4.ftcdn.net/jpg/06/24/16/71/360_F_624167187_WNVr4l5UQcfKR6VObLoAXfOGiEU3jvvZ.webp" height="150px" width="150px" alt="">
+          <p><strong>Controls</strong></p>
+          <p>← Move Left</p>
+          <p>→ Move Right</p>
+          <p>↓ Soft Drop</p>
+          <p>↑ Rotate</p>
+          <p>Space Hard Drop</p>
+        </div>
+    </section>
+    <div id="game-over" role="alert" tabindex="0" aria-hidden="true">Game Over<br/>Click to Restart</div>
+  </main>
+</body>
+<script src="tertis.js"></script>
+</html>
