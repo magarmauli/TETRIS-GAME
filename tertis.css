@@ -135,18 +135,31 @@
     transition: background-color 0.3s ease;
     box-shadow: 0 4px 12px white;
     user-select: none;
-  }
-
-  .btn {
     display: inline-block;
   }
 
+  .btn-box{
+    display: inline-block;
+    border-radius: 0.75rem;
+    padding: 0.7rem 1rem;
+    background: rgb(9, 229, 229);
+    font-size: 16px;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 4px 12px white;
+}
+.btn-box:hover{
+  background-color: rgb(9, 196, 196);
+}
+
   #pause-button {
-    background-color: #111827;
+    background-color: rgb(240, 19, 252);
     color: white;
   }
   #pause-button:hover {
-    background-color: #374151;
+    background-color: rgb(190, 4, 199);
   }
 
   #restart-button {
