@@ -18,8 +18,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background: rgba(87, 83, 83, 0.6);
-  box-shadow: 0 2px 5px rgba(87, 83, 83, 0.6);
+  background: rgba(0,0,0,0);
+  box-shadow: 0 2px 5px rgba(0,0,0,0);
 }
 
 .logo {
