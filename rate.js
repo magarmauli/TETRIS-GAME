@@ -1,6 +1,6 @@
 
         document.addEventListener('DOMContentLoaded', function() {
-            // DOM elements
+           
             const stars = document.querySelectorAll('.star');
             const ratingText = document.querySelector('.rating-text');
             const feedbackInput = document.querySelector('.rating-feedback');

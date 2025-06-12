@@ -1,6 +1,6 @@
 (() => {
     const ROWS = 20;
-    const COLS = 10;
+    const COLS = 10;  
 
     const POINTS = [0, 40, 100, 300, 1200];
 
