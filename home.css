@@ -148,7 +148,7 @@ body {
   padding: 50px 20px;
   text-align: center;
   background-color: #121212;
-  height: 100vh;
+  height: auto;
 }
 
 .about h2 {
