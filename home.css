@@ -190,4 +190,11 @@ body {
     font-size: 1rem;
     padding: 10px 20px;
   }
+  .about {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #121212;
+  height: auto;
+}
+
 }
